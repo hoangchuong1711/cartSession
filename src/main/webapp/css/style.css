@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2f6578;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #777;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+th:nth-child(2),
+th:nth-child(3) {
+    text-align: right;
+}
+
+button {
+    padding: 6px 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
